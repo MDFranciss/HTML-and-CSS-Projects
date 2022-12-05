@@ -1,0 +1,21 @@
+table {
+	border: 2px solid gold;
+}
+
+td:hover {
+	background-color: orange;
+	color: black;
+}
+
+tr, th {
+	background-color: yellow;
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+}
+
+tr, td {
+	background-color: black;
+	color: white;
+}
+	

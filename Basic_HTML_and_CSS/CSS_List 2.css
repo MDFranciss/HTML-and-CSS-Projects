@@ -1,0 +1,15 @@
+ol {
+	list-style-type: square;
+	text-shadow: 1.3px 1.3px #4169E1;
+	text-align: left;
+}
+
+ul {
+	list-style-type: upper-roman;
+	text-shadow: 1.3px 1.3px #4169E1;
+	text-align: left;
+}
+
+li:hover {
+	color: red;
+}
