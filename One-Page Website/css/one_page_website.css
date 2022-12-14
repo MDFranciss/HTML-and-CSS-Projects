@@ -1,0 +1,233 @@
+html {
+    font-family: impact;
+    font-size: 80%;
+}
+
+form {
+    width: 62.3%;
+    border: 3px solid #420bf7;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+h1, h2, p {
+    text-align: center;
+    color: blue
+}
+
+footer, nav {
+    text-align: right;
+    
+}
+
+iframe {
+    display: block;
+    margin: auto
+}
+
+span {
+    display: table;
+    margin: 0 auto;
+}
+
+nav {
+    height: 105px;
+    max-width: 340px;
+    display: block;
+}
+
+section {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 9px;
+    margin: 0 auto;
+    background-color: rgba(100, 65, 0 0.5);
+    box-shadow: 2px, 2px, 10px, 0 rgba(0, 0, 0, .5)
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.menu-container {
+    max-height: 340px;
+    margin: 0 auto;
+    content: " ";
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+/*---------------------------------------
+    CONTACT STYLES
+-----------------------------------------*/
+#contact {
+    background-color: #f9f6f6;
+}
+
+.reservation {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(100, 50, 0, 0.408);
+    box-shadow: -1px -1px 1px 0 rgb(0, 0, 0), 1px 2px 10px 0 rgba(0, 0, 0, 0.478);
+}
+
+.reservation h2 {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: #13141b;
+    font-weight: 500;
+    font-size: 1.3em;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+}
+
+.reservation h2, span {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: #13161B;
+    font-weight: 900;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    letter-spacing: .4pt;
+    word-spacing: .3pt;
+}
+
+.reservation p {
+    color: #14131b;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.reservation form {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8D8E8F;
+    padding: 12px 12px;
+    width: 70%;
+    border: 1px solid #808080;
+    margin: 2% auto;
+    border-radius: 7px;
+    background: rgb(227, 222, 222);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    font-family: 'Raleway', sans-serif;
+}
+
+.reservation input[type="text"] {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8D8E8F;
+    padding: 2% 1% 2% 7%;
+    width: 80%;
+    border-top: 1px solid #090b0d;
+    border-right: 2px solid #424549;
+    border-bottom: 2px solid #424549;
+    border-left: 1px solid #090b0d;
+    margin: 10px 1em;
+    border-radius: 7px;
+    background: #13161B;
+    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.194);
+    font-family: Trebuchet ms;
+}
+
+.reservation input[type="text"]:hover {
+    box-shadow: 0 0 18px rgba(100, 65, 0, .8);
+}
+
+.form-spacer {
+    padding: 30px 39px;
+}
+
+.terms {
+    margin: 30px 1px 0 0;
+    margin-top: 13%;
+    padding-left: 52px;
+    font-size: 14px;
+    line-height: 5px;
+    color: #000;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    position: relative;
+    display: inline;
+    float: right;
+}
+
+.terms:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.submit input[type="submit"]{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+    font-weight: 900;
+    outline: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 3%;
+    padding: 7px 0px;
+    width: 25%;
+    font-size: 18px;
+    transition: border-color 0.3s color 0.3s background-color 0.3s;
+    border-radius: 7px;
+    background-color: #797a7b;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.submit input[type="submit"]:hover {
+    color: #000;
+    background-color: #8D8E8F;
+    box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+/*------------------------------------
+    HOME SECTION STYLES
+--------------------------------------*/
+
+#home {
+    background: url(../images/background_img.png) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: 50px;
+    padding-top: 100px;
+}
